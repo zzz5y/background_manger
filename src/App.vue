@@ -1,9 +1,5 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+  <RouterView />
 </template>
 
 <style lang="scss">
@@ -26,5 +22,8 @@ nav {
       color: #42b983;
     }
   }
+}
+.el-message-box__status {
+  position: absolute !important;
 }
 </style>
