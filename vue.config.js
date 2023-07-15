@@ -73,8 +73,8 @@ module.exports = {
     https: false,
     hot: 'only',
     proxy: {
-      '/api': {
-        target: 'https://lianghj.top:12969/api/private/v1/',
+      '/api': {//http://admin.lianghj.to 服务器被干掉了
+        target: 'none',
         changeOrigin: true,
         pathRewrite: {
           '^/api': ''
